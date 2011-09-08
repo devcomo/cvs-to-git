@@ -1,1 +1,5 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{ "name": "CVS to Git", 
+  "sections": [ 
+    {"section":"intro"} 
+  ]
+}

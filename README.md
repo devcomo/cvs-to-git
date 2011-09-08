@@ -39,5 +39,5 @@ Go to [http://localhost:9090][5] to view the presentation.
 
 [3]: http://github.com/schacon/showoff
 [4]: https://github.com/ctshryock/GitTalk
-[5]: http://localhost:9000
+[5]: http://localhost:9090
 [6]: http://ctshryock.github.com/cvs-to-git
