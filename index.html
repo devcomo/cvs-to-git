@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>My Preso</title>
+  <title>CVS to Git</title>
 
   <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
   <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
@@ -27,6 +27,8 @@
   <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
   <link type="text/css" href="./css/sh_style.css" rel="stylesheet" >
 
+  
+    <link rel="stylesheet" href="file/style.css" type="text/css"/>
   
 
   
@@ -70,15 +72,121 @@
 </div>
 
 <div id="slides" class="offscreen" style="display:none;">
-<div class="slide" data-transition="none"><div class="content" ref="one/01_slide/1">
-<h1>My Presentation</h1></div>
-</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="one/01_slide/2">
-<h1>Bullet Points</h1>
+<div class="slide" data-transition="none"><div class="content home" ref="intro/01_slide/1">
+<h1>From CVS to Git</h1>
+
+<p>Clint Shryock<br/>
+@ctshryock</p></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="intro/01_slide/2">
+<h1>History</h1>
+
+<h3>Tl;Dr</h3>
 
 <ul>
-<li>first point</li>
-<li>second point</li>
-<li>third point</li>
+<li>Linux Kernel Maintenance</li>
+<li>BitKeeper 2002-2005</li>
+<li>On to smaller and better things</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="intro/02_about">
+<h1>Design Goals</h1>
+
+<ul>
+<li>Speed</li>
+<li>Simple design</li>
+<li>Strong support for non-linear development (thousands of parallel branches)</li>
+<li>Fully distributed</li>
+<li>Able to handle large projects like the Linux kernel efficiently (speed and data size)</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="compare/01_new_slide/1">
+<h1>CVS -&gt; Git</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="compare/01_new_slide/2">
+<h1>Common Terms</h1>
+
+<ul>
+<li>Repository</li>
+<li>Commit</li>
+<li>Branch</li>
+<li>Merge</li>
+<li>Server <em>(Remote)</em></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="compare/01_new_slide/3">
+<h1>Different Meanings</h1>
+
+<ul>
+<li>Everyone has a repository <em>(hooray!)</em></li>
+<li>Commit small, commit often</li>
+<li>Branching is cheap. You'll branch more than you don't</li>
+<li>Merging is also cheap, and <strong><em>easy</em></strong></li>
+<li>Lots of remotes
+
+<ul>
+<li>or none</li>
+</ul>
+</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="git-and-teams/01_new_slide/1">
+<h1>Git and Teams</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="git-and-teams/01_new_slide/2">
+<h1>Git is Awesome for Teams</h1>
+
+<ul>
+<li>Flexibility</li>
+<li>The good kind of Isolation</li>
+<li>Interoperability</li>
+<li>Code fearlessly <em>(not carelessly)</em></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content integration-manager" ref="git-and-teams/01_new_slide/3">
+<h1>A Common Team Workflow</h1>
+
+<h3>Integration Manager</h3></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="github-and-teams/01_new_slide/1">
+<h1>Github and Teams</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="github-and-teams/01_new_slide/2">
+<h1>Github is Awesome for Teams</h1>
+
+<ul>
+<li>Easy setup</li>
+<li>Pull requests <em>(code reviews)</em></li>
+<li>Integrated Issues, Milestones, Commit Messages and Comments</li>
+<li>Network visualization</li>
+<li>Team management</li>
+<li>Hooks galore <em>(contineous integration)</em></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="github-and-teams/01_new_slide/3">
+<h1>Demos</h1></div>
+</div><div class="slide" data-transition="none"><div class="content smbullets ship-it" ref="end/01_end">
+<h1>End</h1>
+
+<h2>Clint Shryock</h2>
+
+<br/>
+
+
+<h2>Twitter:</h2>
+
+<h2>@ctshryock</h2>
+
+<br/>
+
+
+<h2>Email:</h2>
+
+<h2>clint@ctshryock.com</h2>
+
+<br/><br/>
+
+
+<h2>Learn more</h2>
+
+<ul>
+<li><a href="http://progit.org">Pro Git</a></li>
+<li><a href="https://github.com/ctshryock/dotfiles/blob/master/.gitconfig">Clint's gitconfig</a></li>
 </ul>
 </div>
 </div></div>

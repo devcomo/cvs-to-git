@@ -1,0 +1,129 @@
+/* @override http://localhost:9090/file/style.css */
+
+/* @override http://localhost:9090/file/style.css */
+
+body {
+	text-align: center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 0.7em;
+  font-weight:100; 
+}
+
+ul {
+	list-style: disc;
+	padding-left: 80px;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+ul li {
+	text-align: left !important;
+	padding: 10px !important;
+}
+
+ul li ul {
+	font-size: inherit !important;
+	list-style-type: circle;
+}
+
+.images img {
+	vertical-align: top;
+}
+
+.content h1,
+.content h2 {
+  	background:#333;
+	padding: 10px;
+	color: white;
+}
+
+.content h3 {
+	font-size: 3em;
+	font-weight: bold;
+  padding-left: 20px;
+}
+
+.mini-browser-1.content::after {
+      position: absolute;
+      right: 10px;
+      bottom: 220px;
+      content: url('basics/imagebrowser_02_thumb.jpg');
+}
+.mini-browser.content::after {
+      position: absolute;
+      right: 10px;
+      bottom: 275px;
+      content: url('basics/imagebrowser_02_thumb.jpg');
+}
+
+.mini-browser.content ul li {
+	width: 575px;
+}
+
+pre {
+	text-align: left;
+}
+
+.ship-it.content::after {
+      position: absolute;
+      right: 150px;
+      top: 150px;
+      content: url('end/zoidberg.jpg');
+}
+
+.ship-it h1 {
+	position: absolute;
+	top: 10px;
+	width: 100%;
+}
+
+.ship-it h2 {
+	background: #fff;
+	color: #333;
+	text-align: left;
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	padding-left: 15px;
+}
+
+.ship-it h3 {
+	margin-top: 45px;
+}
+
+.ship-it p {
+	padding-left: 15px;
+	text-align: left;
+	font-size: larger;
+}
+
+blockquote {
+	float: left;
+	width: 100%;
+	font-size: 2em;
+	direction: ltr;
+	text-align: left;
+	line-height: 1.2em;
+	font-style: italic;
+}
+
+blockquote p {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.home p {
+	font-size: 3em;
+	text-align: right;
+	padding-right: 13px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.integration-manager  {
+	margin: 0 !important;
+	height: 500px;
+	background: url(images/integration.png) 275px 200px no-repeat;
+}
