@@ -68,7 +68,7 @@ pre {
       position: absolute;
       right: 350px;
       top: 250px;
-      content: url('end/git-logo.png');
+      content: url('https://github.com/ctshryock/cvs-to-git/raw/master/images/git-logo.png');
 }
 
 .ship-it h1 {
