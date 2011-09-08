@@ -1,5 +1,1 @@
-{ "name": "CVS to Git", 
-  "sections": [ 
-    {"section":"intro"} 
-  ]
-}
+{"name":"CVS to Git","sections":[{"section":"intro"},{"section":"compare"},{"section":"git-and-teams"},{"section":"github-and-teams"}]}
