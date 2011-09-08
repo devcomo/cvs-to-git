@@ -21,6 +21,11 @@ ul li {
 	padding: 10px !important;
 }
 
+ul li ul {
+	font-size: inherit !important;
+	list-style-type: circle;
+}
+
 .images img {
 	vertical-align: top;
 }
@@ -111,4 +116,14 @@ blockquote p {
 	font-size: 3em;
 	text-align: right;
 	padding-right: 13px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.integration-manager  {
+	margin: 0 !important;
+	height: 500px;
+	background: url(images/integration.png) 275px 200px no-repeat;
 }
