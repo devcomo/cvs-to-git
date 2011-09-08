@@ -15,7 +15,7 @@ On this trip we'll compare CVS/SVN and Git, and explore how to use git and play 
 	- About git, history
 2. Comparing to CVS
 	- Common terms
-	- Key differences
+	- Key differences (commit vs push, DVCS)
 3. Git and Teams
 	- Integration Manager strategy
 	- Github
