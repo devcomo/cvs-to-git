@@ -125,5 +125,5 @@ strong {
 .integration-manager  {
 	margin: 0 !important;
 	height: 500px;
-	background: url(images/integration.png) 275px 200px no-repeat;
+	background: url(https://github.com/ctshryock/cvs-to-git/raw/master/images/integration.png) 275px 200px no-repeat;
 }
