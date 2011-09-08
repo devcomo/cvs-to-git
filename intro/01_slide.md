@@ -1,5 +1,5 @@
 !SLIDE home
-# From CVS to Git #
+# From CVS to Git(hub) #
 
 Clint Shryock  
 @ctshryock
