@@ -68,7 +68,7 @@ pre {
       position: absolute;
       right: 150px;
       top: 150px;
-      content: url('end/zoidberg.jpg');
+      content: url('https://github.com/ctshryock/git-in-practice/raw/master/zoidberg.jpg');
 }
 
 .ship-it h1 {

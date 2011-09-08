@@ -1,1 +1,10 @@
-{"name":"CVS to Git","sections":[{"section":"intro"},{"section":"compare"},{"section":"git-and-teams"},{"section":"github-and-teams"}]}
+{
+  "name":"CVS to Git",
+  "sections":[
+    {"section":"intro"},
+    {"section":"compare"},
+    {"section":"git-and-teams"},
+    {"section":"github-and-teams"},
+    {"section":"end"}
+  ]
+}
